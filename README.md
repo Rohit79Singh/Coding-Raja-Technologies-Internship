@@ -126,4 +126,3 @@ This project is licensed under the MIT License.
         loan_status VARCHAR(50),
         FOREIGN KEY (user_id) REFERENCES Users(user_id)
     );
-    ```
